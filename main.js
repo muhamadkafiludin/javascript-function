@@ -46,3 +46,22 @@ const sum3 = (x,y) => {
 } 
 
 sum3(3, 3)
+
+
+function hello(){
+    alert("hello world")
+}
+
+const btnlogin = document.getElementById("hello-kafil");
+btnlogin.addEventListener("click",function(){
+    alert("hello")
+})
+
+
+
+const handleChange2 = () => {
+    const getValue = document.getElementById('hello').value
+    console.log('the value is :', getValue);
+}
+
+
